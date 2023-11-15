@@ -3,17 +3,20 @@
     display: flex;
     flex-direction: column;
     background-color: #F8F8F8;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
 .header_page_2{
     display: flex;
     flex-direction: column;
+
 }
 
 .yellow_field {
     background-color: #FDC13D;
-    width: 85%;
+    width: 80%;
     max-width: 85%;
     height: auto;
     display: flex;
@@ -24,7 +27,10 @@
     border-radius: 15px;
     margin-top: 15vh;
     margin-left: 7vw;
-    padding: 2.5vw 3.75vw;
+    margin-right: 7vw;
+    padding-left: 2em;
+    padding-top: 1.3em;
+    padding-bottom: 2.3em;
     box-sizing: border-box;
     margin-bottom: 10vh;
     flex-wrap: wrap;
@@ -33,25 +39,25 @@
 
 
 .yellow_field h1{
-    font-size: 40px;
+    font-size: 1.5em;
     margin-top: 35px;
     color: #0E2F4B;
     font-family: Rubik, sans-serif;
     font-style: normal;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 30px;
     margin-left: 4vw;
 }
 
 .yellow_field p{
-    font-size: 25px;
+    font-size: 1em;
     margin-top: 5px;
     margin-left: 4vw;
     color: #0E2F4B;
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 20px;
 
 }
 
@@ -62,13 +68,13 @@
 
 
 .yellow_field-link span{
-    font-size: 25px;
+    font-size: 1.2em;
     margin-top: 5vh;
     color: #0E2F4B;
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: 900;
-    line-height: 30px;
+    line-height: 20px;
     margin-left: 4vw;
 }
 
@@ -86,13 +92,11 @@
     margin-bottom: 30vh;
 }
 
-.financial_header h1{
+.financial_header h2{
     color: #0E2F4B;
     font-family: Rubik, sans-serif;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 1500;
-    line-height: 60px;
+    font-size: 3em;
+    line-height: 45px;
     margin-top: 7vh;
     margin-left: 7vw;
 }
@@ -103,7 +107,7 @@
 
 .financial_item p {
     color: #0E2F4B;
-    font-size: 35px;
+    font-size: 1.5em;
     margin-left: 19vh;
     text-align: left;
     width: 50%;
@@ -119,7 +123,7 @@
     text-decoration: none;
     color: inherit;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1em;
     margin-left: 19vh;
     text-align: left;
     font-family: Rubik, sans-serif;
@@ -149,7 +153,7 @@
 .footer_page_2 h1 {
     margin-left: 7vw;
     margin-top: 20vh;
-    font-size: 85px;
+    font-size: 3em;
     margin-bottom: 3vh;
     color: #F8F8F8;
     font-family: Rubik, sans-serif;
@@ -160,13 +164,13 @@
 
 .footer_page_2 p {
     margin-left: 7vw;
-    font-size: 30px;
+    font-size: 1em;
     margin-bottom: 10vh;
     color: #99A2AA;
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: 400;
-    line-height: 50px;
+    line-height: 30px;
 
 }
 
@@ -199,7 +203,7 @@
     height: 10vh;
     box-sizing: border-box;
     font-family: Open Sans, sans-serif;
-    font-size: 25px;
+    font-size: 0.8em;
     font-weight: bolder;
 
 }
@@ -222,7 +226,7 @@
     align-items: center;
     box-sizing: border-box;
     font-family: Open Sans, sans-serif;
-    font-size: 35px;
+    font-size: 1em;
     font-weight: bolder;
 }
 
