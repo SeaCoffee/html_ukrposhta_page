@@ -1,0 +1,235 @@
+.page_2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8F8;
+}
+
+
+.header_page_2{
+    display: flex;
+    flex-direction: column;
+}
+
+.yellow_field {
+    background-color: #FDC13D;
+    width: 85%;
+    max-width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    border-radius: 15px;
+    margin-top: 15vh;
+    margin-left: 7vw;
+    padding: 2.5vw 3.75vw;
+    box-sizing: border-box;
+    margin-bottom: 10vh;
+    flex-wrap: wrap;
+}
+
+
+
+.yellow_field h1{
+    font-size: 40px;
+    margin-top: 35px;
+    color: #0E2F4B;
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    margin-left: 4vw;
+}
+
+.yellow_field p{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 4vw;
+    color: #0E2F4B;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.yellow_field-link {
+    text-decoration: none;
+
+}
+
+
+.yellow_field-link span{
+    font-size: 25px;
+    margin-top: 5vh;
+    color: #0E2F4B;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+    margin-left: 4vw;
+}
+
+
+
+.financial_block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+    width:65%;
+    padding: 2vh 0;
+    box-sizing: border-box;
+    margin-bottom: 30vh;
+}
+
+.financial_header h1{
+    color: #0E2F4B;
+    font-family: Rubik, sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 1500;
+    line-height: 60px;
+    margin-top: 7vh;
+    margin-left: 7vw;
+}
+
+.financial_item {
+    flex: 1;
+}
+
+.financial_item p {
+    color: #0E2F4B;
+    font-size: 35px;
+    margin-left: 19vh;
+    text-align: left;
+    width: 50%;
+    box-sizing: border-box;
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 1.5vh;
+}
+
+.financial-link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 19vh;
+    text-align: left;
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    line-height: 40px;
+}
+
+
+.financial_header h1{
+    margin-left: 7vw;
+    font-size: 60px;
+    color: #0E2F4B
+}
+
+
+
+.footer_page_2 {
+    width: 100%;
+    background-color: #042C4B;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer_page_2 h1 {
+    margin-left: 7vw;
+    margin-top: 20vh;
+    font-size: 85px;
+    margin-bottom: 3vh;
+    color: #F8F8F8;
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: 1200;
+    line-height: 60px;
+}
+
+.footer_page_2 p {
+    margin-left: 7vw;
+    font-size: 30px;
+    margin-bottom: 10vh;
+    color: #99A2AA;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+
+}
+
+
+.input-button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 15vh;
+    box-sizing: border-box;
+}
+
+
+
+.input-button-container form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 60%;
+    gap: 1.3em;
+    margin-bottom: 6vh;
+    box-sizing: border-box;
+}
+
+.footer_page_2 form input[type="text"], .footer_page_2 button {
+    padding: 0.7em 1em;
+    border-radius: 12px;
+    border: none;
+    height: 10vh;
+    box-sizing: border-box;
+    font-family: Open Sans, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.footer_page_2 input[type="text"] {
+    margin-left: 7vw;
+    width: 60%; }
+
+
+
+.footer_page_2 form button {
+    background-color: #FDC13D;
+    color: #042C4B;
+    border: none;
+    padding: 0.7em 1em;
+    border-radius: 12px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: Open Sans, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+
+.footer_page_2 input[type="text"]::placeholder {
+    color: #99A2AA;
+    font-family: Open Sans, sans-serif;
+    font-size: 1.2em;
+    padding-left: 2em;
+}

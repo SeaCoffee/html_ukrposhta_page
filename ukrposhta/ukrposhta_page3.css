@@ -1,0 +1,319 @@
+.page_3 {
+    width: 100%;
+    background-color: #F8F8F8;
+    box-sizing: border-box;
+}
+
+.header_page_3 h1{
+    margin-top: 0;
+    padding-top: 17vh;
+    box-sizing: border-box;
+    margin-left: 9vw;
+    margin-bottom: 7vh;
+    color: #0E2F4B;
+    font-family: Rubik, sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 950;
+    line-height: 60px;
+}
+
+.header_page_3{
+    box-sizing: border-box;
+    background-color: #F8F8F8;
+}
+
+.news_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 15vh;
+    margin-left: 1vw;
+}
+
+
+.card {
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40vw;
+    height: 33vh;
+    padding: 2vw;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 1vw;
+
+}
+
+.card_top{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.card-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: self-start;
+    width: 7vw;
+    height: 7vw;
+    margin-right: 1.5vw;
+    background-color: #FFC107;
+    border-radius: 50%;
+}
+
+.card-icon img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-date {
+    color: #99A2AA;
+    font-family: Open Sans, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.card-title {
+    color: #0E2F4B;
+    font-family: Rubik, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 45px;
+    margin-top: 0.2vh;
+    margin-bottom: 5vh;
+}
+
+.card-description {
+    color: #0E2F4B;
+    font-family: Open Sans, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+
+}
+
+.footer_card{
+    margin-top: 2em;
+}
+
+.card-description:hover {
+    text-decoration: underline;
+}
+
+
+.for_legal h1{
+    color: #0E2F4B;
+    font-family: Rubik, sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    margin-left: 9vw;
+    margin-bottom: 8vh;
+}
+
+
+.cards_for_legal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 15vh;
+}
+
+.card_for_legal {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 3vw;
+    width: 25vw;
+    height: 12vh;
+    margin: 1em;
+    background-color: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    color: #99A2AA;
+    font-family: Rubik, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    box-sizing: border-box;
+}
+
+.online-services {
+    width: 100%;
+    background-color: #FDC13D;
+    text-align: center;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 40px;
+
+}
+
+.services-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.online-services h1 {
+    margin-left: 10.5vw;
+    font-size: 90px;
+    color: #FFF;
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 6vh;
+}
+
+.online-services p {
+    margin-left: 10.5vw;
+    font-size: 30px;
+    color: #0E2F4B;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.online-services h6{
+    margin-left: 10.5vw;
+    color: #0E2F4B;
+    font-family: Rubik, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 30px;
+
+}
+
+
+
+.mobile-apps a, .chat-bot a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+.mobile-apps {
+    display: flex;
+    justify-content: center;
+    margin-left: 10.5vw;
+}
+
+
+.chat-bot {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10.5vw;
+}
+
+.mobile-apps img {
+    height: 6.5em;
+    width: auto;
+    margin-right: 1em;
+}
+
+.chat-bot img {
+    height: 5em;
+    width: auto;
+    margin-right: 1em;
+    margin-bottom: 3em
+}
+
+.online-services h5{
+    margin-left: 10.5vw;
+    color: #0E2F4B;
+    font-family: Rubik, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 1em;
+    margin-top: 3em;
+}
+
+
+.footer-links_page_3 {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 7vw;
+    font-family: Rubik, sans-serif;
+}
+
+
+.footer-links_page_3 .link-category h3 {
+    margin-top: 5em;
+    margin-bottom: 2em;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+
+}
+
+
+.footer-links_page_3 .link-category ul li a {
+    text-decoration: none;
+    margin-bottom: 1.5em;
+    display: block;
+    color: #99A2AA;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.footer-links_page_3 .link-category ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-links_page_3 .link-category:not(:last-child) {
+    margin-right: 5vw;
+}
+
+
+.footer-links_page_3 .link-category ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links_page_3 .link-category:last-child {
+    margin-right: 0;
+}
+.footer-links_page_3 .link-category:first-child {
+    margin-left: 4.5vw;
+}
+
+
+
