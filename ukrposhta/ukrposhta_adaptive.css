@@ -1,0 +1,121 @@
+@media screen and (max-width: 768px) {
+    .header_page_1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo,
+    .navigation .menu_page_1 {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    .navigation .menu_page_1 {
+        display: none;
+    }
+
+
+    .main_page_1 h1,
+    .main_page_1 h5 {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main_page_1 form {
+        margin: 0 auto;
+        padding: 0.5em;
+        max-width: 500px;
+    }
+
+
+    input[type="text"] {
+        width: calc(100% - 1em);
+        padding: 0.5em;
+    }
+
+    input[type="text"]::placeholder {
+        font-size: 14px;
+    }
+
+
+    .buttons_page_1 {
+        flex-direction: column;
+        margin-left: 2vw;
+        margin-bottom: 1em;
+    }
+
+    button.button_count,
+    button.button_order,
+    button.button_index,
+    button.button_prepay {
+        width: 70vw;
+        height: auto;
+        margin: 0.5em 0;
+        padding: 0.5em 1em;
+        font-size: 16px;
+        line-height: normal;
+        background-position: 1em center;
+        background-size: 20px 20px;
+    }
+
+    .services,
+    .services-list {
+        width: 100%;
+    }
+
+
+    .content_block_page_1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .services {
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .services-heading h1,
+    .services p,
+    .service-item h3,
+    .service-link span {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .service-item {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .services-list {
+        justify-content: center;
+    }
+
+
+    .service-link {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+}
+
+.yellow_field{
+    padding-right: 15px;
+}
+
+.footer_page_2 input[type="text"]::placeholder {
+    color: #99A2AA;
+    font-family: Open Sans, sans-serif;
+    font-size: 1em;
+    padding-left: 0.2em;
+}
+
+
