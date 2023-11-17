@@ -145,7 +145,7 @@ input[type="text"]::placeholder {
     flex-wrap: wrap;
     position: relative;
     margin-bottom: -6em;
-    margin-left: 3vw;
+    margin-left: 2.7vw;
     flex-grow: 1;
 
 }
