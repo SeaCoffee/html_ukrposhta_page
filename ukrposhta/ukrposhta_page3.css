@@ -8,7 +8,7 @@
     margin-top: 0;
     padding-top: 17vh;
     box-sizing: border-box;
-    margin-left: 9vw;
+    margin-left: 10vw;
     margin-bottom: 7vh;
     color: #0E2F4B;
     font-family: Rubik, sans-serif;
@@ -29,7 +29,7 @@
     justify-content: center;
     gap: 20px;
     padding-bottom: 15vh;
-    margin-left: 1vw;
+    margin-left: 3vw;
 }
 
 
@@ -125,7 +125,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 60px;
-    margin-left: 9vw;
+    margin-left: 11vw;
     margin-bottom: 8vh;
 }
 
@@ -134,8 +134,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 0.3em;
     padding-bottom: 15vh;
+    padding-left: 3vw;
 }
 
 .card_for_legal {
